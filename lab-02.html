@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" >
-  <head>
-    <meta charset="utf-8">
-    <title> Login Form </title>
-  </head>
-  <body>
-    <h1>Volunteer Form</h1>
-      <fieldset>
-      <h4><strong> My Info </strong></h4>
-            <div>
-              <label> First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
-            </div>
-            <div>
-              <label> Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
-            </div>
-            <div>
-              <label> Phone Number: <input type="tel" name="phone_field" placeholder="enter phone number"></label>
-            </div>
-            <div>
-              <label> Email: <input type="email" name="email_field" placeholder="email here"></label>
-            </div>
-            <div>
-              <label> Gender: </label>
-              <label><input type="radio" name="gender_field" value="Male">Male: </label>
-              <label><input type="radio" name="gender_field" value="Female">Female: </label>
-            </div>
-            <input type="hidden" name=hidden_field value="nahmed15">
-          <button type="submit">Send Me</button>
-        </form>
-      </body>
+<html lang="en" class="nojs">
+<head>
+  <title>Lab 2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+	<link rel="stylesheet" media="screen" href="css/screen.css">
+	<link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
+
+</head>
+<body>
+	<header>
+		<h4>Lab 2: From Semantics and Normalized Styles</h4>
+	</header>
+	
+	<h2 class="page-title">Enter your information in the form below: </h2>
+	
+	<div>
+	  <form action="/action_page.php" method="get" autocomplete="on">
+	   <label for="fname">First name:</label><br>
+  			<input type="text" id="fname" name="firstname" placeholder="Your first name here"><br>
+  		
+  			<label for="lname">Last name:</label><br>
+  			<input type="text" id="lname" name="lastname" placeholder="Your last name here"><br>
+			
+			<label for="DOB"> Date of Birth:</label><br>
+			<input type ="date" id="DOB" name= "birthdate"><br>
+			
+			<label for="emails">Enter Email Address(es):</label><br>
+			<input type= "email" id="emails" name="emails" multiple placeholder="Your email(s) here, use commas to separate"><br>
+			
+			<label for="phone"> Enter your phone number:</label><br>
+			<input type= "tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Format: 123-456-7890"><br>			
+			
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	
+	
+
+</body>
 </html>
