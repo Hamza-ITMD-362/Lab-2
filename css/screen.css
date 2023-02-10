@@ -2,13 +2,13 @@ body {
   background-color:black;
   text-align: center;
   font-family: serif;
-  color:#696969;
-  font-size:40px;
+  color:#e3e3e3;
+  font-size:20px;
 }
 h2 {
-  font-family: "sans-serif";
-  color: #FFFF32;
+  font-family: "Fantasy";
+  color: black;
   text-align: center;
-  background-color:#000039;
-  font-size: 30px;
+  background-color:#FFFF32;
+  font-size: 35px;
 }
