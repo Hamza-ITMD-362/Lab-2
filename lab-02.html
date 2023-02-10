@@ -16,16 +16,19 @@ body {
   <h2> The Night is always Dark, Enter Your Dark Details </h2>
 	
 	<form action="/action_page.php" method="get" autocomplete="on">
-	  <label for="fname">Please Proceed and Enter Your Bat Name:</label><br>
+	<ul>
+	<nav id="navbar">
+	<div id="navbar-container">
+	  <label for="fname">Please Proceed and Enter Your Bat Name</label><br>
 	  
   	  <input type="text" id="fname" name="firstname" placeholder="Your Bat Name here"><br>
-	  <label for="phone"> Enter Bat Number:</label><br>
+	  <label for="phone"> Enter Bat Number</label><br>
 	  
 	  <input type= "tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder=" xxx-xxx-xxxx"><br>
-	  <label for="electronic">Enter Your Electronic Bat Address:</label><br>
+	  <label for="electronic">Enter Your Electronic Bat Address</label><br>
 	  
 	  <input type= "email" id="emails" name="Eletronic" multiple placeholder="Eletronic ID here"><br>	
-	  <label for="DOB"> In order To Proceed for Bat approval State delivery Date to the Dark world:</label><br>
+	  <label for="DOB"> In order To Proceed for Bat approval State delivery Date to the Dark world</label><br>
 	  
 	  <input type ="date" id="DOA" name= "Date of Approval from GOD"><br>
 	  
@@ -33,5 +36,8 @@ body {
 	  
 	  <input type="submit" value="Submit">
 	</form>
+	</div>
+    </nav>
+	</ul>
 </body>
 </html>
