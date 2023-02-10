@@ -10,8 +10,40 @@ h2 {
   color: black;
   text-align: center;
   background-color:#FFFF32;
-  font-size: 35px;
+  font-size: 40px;
 }
 form{
     padding: 0.8em;
 }
+nav#horzl ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	text-decoration: none;
+}
+nav#horzl ul li {
+	float: left;
+	margin: 0 15px;
+	text-decoration: none;
+}
+nav#horzl ul li a {
+	display: block;
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100px;
+	padding: 15px 0px 15px 0px;
+	border-radius: 20px;
+}
+
+#navbar{
+	list-style-type:none;
+	text-decoration: none;
+}
+#navbar a:hover{
+	color:black;
+	padding: 10px 	10px;
+	text-decoration: none;
+}
+
